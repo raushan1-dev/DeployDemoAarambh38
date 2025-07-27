@@ -12,9 +12,10 @@ import { BASE_URL } from "./constants/AllUrl";
 import { removestudent } from "./utils/StudentSlice";
 import { removeadmin } from "./utils/AdminSlice";
 import { removealumini } from "./utils/AluminiSlice";
-import BranchList from "./constants/BranchLIst";
+import BranchList from "./constants/BranchList";
 
 export default function SignupPageUser() {
+  console.log(BranchList)
   const Dispatch=useDispatch()
       useEffect(()=>{
         Dispatch(removestudent())
