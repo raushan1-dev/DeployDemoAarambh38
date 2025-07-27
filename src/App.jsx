@@ -30,7 +30,6 @@ import About from "./About"
 import AlumniProfilePage from "./AlumniProfilePage"
 
 function App() {
-  
 
   return (
     <Provider store={appStore}>
